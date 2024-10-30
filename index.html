@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Source+Code+Pro:wght@200..900&family=DM+Serif+Text&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <header class="navbar">
+        <div class="logo">
+            <!-- Animated Logo -->
+            <span class="logo-text">GhostByte</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#profile">Profile</a>
+            <a href="#projects">Projects</a>
+            <a href="#timeline">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="profile">
+            <img src="Picture.jpg" alt="Profile Picture" class="profile-pic" />
+            <div class="profile-info">
+                <h1>Hi !</h1>
+                <p>I'm Pranjal Mitra, a Backend Developer and Cybersecurity enthusiast. I strive to learn new skills daily and collaborate with tech enthusiasts to build a community.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Video Streaming Backend</h3>
+                    <p>This project, developed in JavaScript, enables multiple features on a single platform. View the code on <a href="https://github.com/Pranjal1804/Streaming_App_Backend">GitHub</a>.</p>
+                </div>
+                <div class="project">
+                    <h3>Swatantra</h3>
+                    <p>Swatantra is a website designed to score resumes based on requirements. View more about the project <a href="https://github.com/HackathonBuild/SIH_2024">here</a>.</p>
+                </div>
+                <div class="project">
+                    <h3>Chained Hash Generator</h3>
+                    <p>This a tool that generates a password hash by chaining two desired algorithms.To know more click<a href="https://github.com/Pranjal1804/PasswordHashGenerator">here</a>.</p>
+                </div>
+                <div class="project">
+                    <h3>Pixel Decoder</h3>
+                    <p>This is a ctf tool and my first GSSoC'24 contribution . This tool can rebuild a distorted image based on timestamp seed.To know more click <a href="https://github.com/UTSAVS26/PyVerse/tree/main/Cybersecurity_Tools/Pixel_Decoder">here</a>.</p>
+                </div>
+            </div>
+        </section>
+       <!-- Timeline Section -->
+<div class="timeline" id="timeline">
+    <h2 class="exp">Experience Timeline</h2>
+    <div class="timeline-container">
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <div class="timeline-heading">
+                    <h3>R&D Lead(Cybersecurity Department)at OSPC VITC</h3>
+                </div>
+                <div class="timeline-details">
+                    <p>October 2024 - Present</p>
+                    <p>Working on organizing events for the development of skills required for cybersecurity and Ethical Hacking.Also contributing to open source projects based on tools needed in cybersecurity industry.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <div class="timeline-heading">
+                    <h3>Technical Team Member at CYSCOM VITC, MIC ,ACM Student Chapter VITC</h3>
+                </div>
+                <div class="timeline-details">
+                    <p>October 2024 - Present</p>
+                    <p>Involved in making CTFs ,planning technical events , etc.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <div class="timeline-heading">
+                    <h3>GSSoC'24 Contributor</h3>
+                </div>
+                <div class="timeline-details">
+                    <p>September 2024</p>
+                    <p>Contributed in various open-source projects.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <div class="timeline-heading">
+                    <h3>Achieved Top Rankings in Multiple CTF Competitions</h3>
+                </div>
+                <div class="timeline-details">
+                    <p>January 2024 - Present</p>
+                    <p>Have been participating in many ctf on and off-campus namely PASSWORD,CYBER-O-DAY 3.0 ,Iron CTF ,Questcon,etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" class="contact-form" action="https://formspree.io/f/mjkvygbk" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Made with love by Pranjal Mitra (GhostByte).</p>
+        <div class="social-icons">
+            <a href="https://github.com/Pranjal1804" target="_blank"><img src="icons8-github-30.png" alt="GitHub"></a>
+            <a href="http://www.linkedin.com/in/pranjal-mitra-504b22291" target="_blank"><img src="icons8-linkedin-30.png" alt="LinkedIn"></a>
+            <a href="https://x.com/Pranjal_Mitra04" target="_blank"><img src="icons8-twitter-30.png" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
